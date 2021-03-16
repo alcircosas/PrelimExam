@@ -18,7 +18,6 @@ class Student {
 	       calculateGradePoint();
 	   }
 
-	   // getters and setters
 	   public String getID() {
 	       return ID;
 	   }
@@ -50,7 +49,6 @@ class Student {
 	               + gradePoint;
 	   }
 
-	   // method to find gradePoint
 	   public void calculateGradePoint() {
 	       gradePoint = points / (double) numberOfCredits;
 	   }
