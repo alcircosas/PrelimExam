@@ -1,10 +1,8 @@
 package Exam;
 import java.util.Scanner;
 class Student {
-	   private String ID;
-	   private int numberOfCredits;
-	   private int points;
-	   private double gradePoint;
+	   public String ID;
+	   public double numberOfCredits, points, gradePoint;
 
 	   public Student() {
 	   }
